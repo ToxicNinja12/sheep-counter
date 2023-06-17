@@ -40,14 +40,11 @@ button {
   width: 200px;
   margin-bottom: 5px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 button:active {
   transform: scale(0.9);
-}
-
-button:hover {
-  cursor: pointer;
 }
 
 #glass-div {
