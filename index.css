@@ -42,7 +42,15 @@ button {
   border-radius: 5px;
 }
 
-#glass {
+button:active {
+  transform: scale(0.9);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#glass-div {
   box-shadow: 5px 5px 20px black;
   border-radius: 5px;
   background-color: #ffffff80;
